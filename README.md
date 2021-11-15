@@ -22,7 +22,7 @@ Selina Vanderstalle
 Blauwe piste
 
 #### Je focus:
-Sruface plane
+Surface plane
  
 </details>
 
@@ -39,12 +39,11 @@ Sruface plane
 https://www.teylersmuseum.nl/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Home
+<img src="images/home.png" width="375px" alt="homepage van Teylers museum">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Tickets<img src="images/tickets.png" width="375px" alt="ticket verkoop pagina">
  
 </details>
 
