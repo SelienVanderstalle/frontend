@@ -51,7 +51,7 @@ Tickets<img src="images/ticket.png" width="375px" alt="ticket verkoop pagina">
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
@@ -68,7 +68,7 @@ Tickets<img src="images/ticket.png" width="375px" alt="ticket verkoop pagina">
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
