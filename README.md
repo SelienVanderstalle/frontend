@@ -22,7 +22,7 @@ Selina Vanderstalle
 Blauwe piste
 
 #### Je focus:
-Surface plane
+Responsive
  
 </details>
 
@@ -43,7 +43,7 @@ Home
 <img src="images/home.png" width="375px" alt="homepage van Teylers museum">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Tickets<img src="images/ticket.png" width="375px" alt="ticket verkoop pagina">
+Tickets<img src="images/pg2.png" width="375px" alt="screenshot 2e pagina">
  
 </details>
 
@@ -51,7 +51,7 @@ Tickets<img src="images/ticket.png" width="375px" alt="ticket verkoop pagina">
 
 ## Breakdownschets (week 1)
 
-<details open>
+<details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
@@ -72,7 +72,7 @@ Tickets<img src="images/ticket.png" width="375px" alt="ticket verkoop pagina">
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Heb deze meeting helaas gemist T-T
 
 
 ### Agenda voor meeting
@@ -105,7 +105,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik kon helaas niet bij de meeting zijn, omdat ik bij de dokter was.
 
 
 ### Agenda voor meeting
@@ -140,28 +140,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### hamburger button
+Het hamburgermenu kon nog niet met een key aanslag geopend worden.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan worden opgelost door javascript toe te voegen die in een eerdere oefening is behandeld.
+ 
+#### transition
+Bij de nav moet er nog een transitie op de hover.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Auw. 
+Mijn arm doet (donderdag 9dec.) nog steeds pijn van dat ding.
 
 </details>
 
@@ -171,11 +160,11 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had wat problemen met mijn nav, maar die zijn nu opgelost!
 
 
 ### Agenda voor meeting
@@ -227,8 +216,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Oefeining js van de les
+2. Oefening positioneren van de les
+3. De les van Sanne op maandag 6 december
+4. 
 
 </details>
