@@ -43,7 +43,7 @@ Home
 <img src="images/home.png" width="375px" alt="homepage van Teylers museum">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Tickets<img src="images/pg2.png" width="375px" alt="screenshot 2e pagina">
+pagina 2<img src="images/pg2.png" width="375px" alt="screenshot 2e pagina">
  
 </details>
 
