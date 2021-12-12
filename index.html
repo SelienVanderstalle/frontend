@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Selina Vanderstalle">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Teylers Museum</title>
+	
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/style-home.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+	<header>
+		<!-- logo -->
+		<a href="./index.html"><img src="./images/logo.svg" alt="Logo Teylers Museum, naar home"></a>
+		<nav>
+			<!-- hamburger menu -->
+			<section tabindex="0">
+				<p role="button"></p>
+			</section>
+
+			<div>
+			<!-- Dit moet in een hamburger -->
+			<section> 
+				<!-- taal kiezen -->
+				<button>Language</button>
+			</section>
+
+			<!-- zoekbalk -->
+			<section>
+				<form>
+					<input type="search" name="zoeken" id="zoeken" placeholder="Website doorzoeken">
+					<input type="submit" value="🔍">
+				</form>
+			</section>
+
+			<section>
+				<h2><a href="#">Bezoek het museum</a></h2>
+				<ul>
+					<li><a href="#">Praktische informatie</a></li>
+					<li><a href="#">Wat is er te zien en te doen?</a></li>
+					<li><a href="#">Teylers verhalen</a></li>
+					<li><a href="#">Bezoek het Lorentz Lab</a></li>
+					<li><a href="#">Pieter Teylers Huis</a></li>
+					<li><a href="#">Scholen, kinderen en groepen</a></li>
+					<li><a href="#">Online tickets</a></li>
+				</ul>
+			</section>
+
+			<section>
+				<h2><a href="#">Ontdek het museum</a></h2>
+				<ul>
+					<li><a href="#">Kunst</a></li>
+					<li><a href="#">Boeken</a></li>
+					<li><a href="#">Instrumenten</a></li>
+					<li><a href="#">Munten en Penningen</a></li>
+					<li><a href="#">Fossielen en Mineralen</a></li>
+					<li><a href="#">Gebouw en geschiedenis</a></li>
+				</ul>
+			</section>
+			
+			<section>
+				<h2><a href="#">Over het museum</a></h2>
+				<ul>
+					<li><a href="#">Organisatie</a></li>
+					<li><a href="#">Steun Teylers Museum</a></li>
+					<li><a href="#">Verhuur</a></li>
+					<li><a href="#">Pers/Beeldmateriaal</a></li>
+				</ul>
+			</section>
+			</div>
+
+		</nav>
+	</header>
+
+	<main>
+		<!-- h1 is hidden -->
+		<h1>Teylers Museum</h1> 
+		<!-- grote banner voor img of vid -->
+		<section>
+			<!-- carousel bron: https://css-tricks.com/css-only-carousel/ -->
+			<ol>
+				<li id="video-1">
+					<a href="#video-4">vorige video</a>
+					<iframe tabindex="-1" src="https://www.youtube.com/embed/ghj3JcEUHfY?autoplay=1&mute=1" title="YouTube video player"></iframe>
+					<a href="#video-2">volgende video</a>
+				</li>
+
+				<li id="video-2">
+					<a href="#video-1">vorige video</a>
+					<iframe tabindex="-1" src="https://www.youtube.com/embed/8snw4MvdtOs" title="YouTube video player"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+					<a href="#video-3">volgende video</a>
+				</li>
+				
+				<li id="video-3">
+					<a href="#video-2">vorige video</a>
+					<iframe tabindex="-1" src="https://www.youtube.com/embed/jrfzCLARp-c" title="YouTube video player" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+					<a href="#video-4">volgende video</a>
+				</li>
+				
+				<li id="video-4">
+					<a href="#video-3">vorige video</a>
+					<iframe tabindex="-1" src="https://www.youtube.com/embed/IroCF2j3pJw" title="YouTube video player"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+					<a href="#video-1">volgende video</a>
+				</li>
+			</ol>
+		</section>
+
+		<!-- koop tickets -->
+		<section> 
+			<h2>Koop je tickets online</h2>
+			<a href="#">Online tickets</a>
+		</section>
+
+		<!-- grijze sectie -->
+		<section tabindex="1">
+			<h2>Nu in het museum</h2>
+			<h3>Wat is er te zien en te doen?</h3>
+			<ul>
+				<li>
+					<a href="#">
+						<h4>Spaarnelezing - De Verlichting</h4>
+						<img src="./images/grote-of-st-bavo-kerk-foto.jpg" alt="St. Bavo kerk in Haarlem">
+						<time datetime="2021-11-17">17 november 2021, 15:30 - 17:00</time>
+					</a>	
+				</li>
+
+				<li>
+					<a href="./vogelpracht.html">
+						<h4>Vogelpracht</h4>
+						<img src="./images/vogelpracht.jpg" alt="vogelpracht">
+						<p>
+							<time datetime="2021-07-17">17 juli 2021</time> 
+							<span class="primaryColor">t/m </span>
+							<time datetime="2022-01-09">09 januari 2022</time> 
+							Een vlucht door Teylers vogelcollectie.
+						</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>De Lorentz Formule</h4>
+						<img src="./images/de-lorentz-formule.jpg" alt="Team van de Lorentz formule">
+						<p>
+							<time datetime="2021-06-11">11 juni 2021 </time>
+							<span class="primaryColor">t/m </span>
+							<time datetime="2022-05-08">08 mei 2022</time>
+							Een theatrale voorstelling in het Lorentz Lab op vrijdag, zaterdag en zondag.
+						</p>
+					</a>
+				</li> 
+			</ul>
+		</section>
+
+		<!-- witte sectie -->
+		<section>
+			<h2>Ontdek de collecties</h2>
+			<h3>Schatten van kunst en wetenschap</h3>
+			<ul>
+				<li>
+					<a href="#">
+						<h4>Madeliefjes in een zilveren beker</h4>
+						<img src="./images/madeliefjes-in-een-zilveren-beker.jpg" alt="Madeliefjes in een zilveren beker">
+						<p>Lucie van Dam van Isselt (1871-1949) (schilder)</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>Klankmenger, naar Helmholtz</h4>
+						<img src="images/resonators-and-forks.jpg" alt="Klankmenger">
+						<p>Koenig, Rudolph, Parijs, 1865</p>
+					</a>	
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>Renard, Louis (1678/79-1746)</h4>
+						<img src="./images/exotic-fishes-louis-renard.jpg" alt="Renard, Louis (1678/79-1746)">
+						<p>Poissons ecrevisses et crabes, de diverses couleurs et figures extraordinaires, que l' on trouve autour des Isles
+							Moluques, et sur les côtes des Terres Australes.
+						</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>Adam en Eva</h4>
+						<img src="./images/adam-en-eva.jpg" alt="Adam en Eva">
+						<p>Albrecht Dürer (1471 - 1528) (graveur), 1504</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="#">
+						<h4>Kinderen in het duin</h4>
+						<img src="./images/kinderen-in-het-duin.jpg" alt="Kinderen in het duin">
+						<p>George Hendrik Breitner (1857-1923) (schilder), ca. 1884 - 1886</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>Ottens Reinier (1698-1750)</h4>
+						<img src="./images/atlas-major-cum-generales-omnium-totius-orbis-tabulas-geographicas-continens.jpg" alt="Ottens Reinier (1698-1750)">
+						<p>Atlas major, cum generales omnium totius orbis [...] tabulas geographicas continens.</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<!-- grijze section -->
+		<section>
+			<h2>Nieuwsberichten</h2>
+			<h3>Lees het laatste nieuws</h3>
+			<ul>
+				<li>
+					<a href="#">
+						<h4>Hare Majesteit Koningin Máxima opent Pieter Teylers Huis</h4>
+						<img src="./images/maxima.jpg" alt="Koningin Maxima">
+						<p>Op dinsdagochtend 30 november</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>Pieter Teylers Huis gaat open op 5 december</h4>
+						<img src="./images/pieterteylershuis.jpg" alt="Pieter Teylers Huis">
+						<p>Vanaf vandaag kun je tickets bestellen voor je museumbezoek inclusief het huis</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h4>Brievenproject kunstenaar pietsjanke fokkema</h4>
+						<img src="./images/brieven.jpg" alt="Brieven">
+						<p>08-11-2021 | Mister Motley publiceert vandaag de eerste brief aan Teylers Museum</p>
+					</a>
+				</li>
+			</ul>
+			<a href="#">Meer...</a>
+		</section>
+		
+	</main>
+
+	<footer>
+		<section>
+			<h2>Teylers · Museum van de Verwondering</h2>
+		</section>
+
+		<!-- footer nav -->
+		<nav>
+			<section>
+				<h2>Bezoek het museum</h2>
+				<ul>
+					<li><a href="#">Praktische informatie</a></li>
+					<li><a href="#">Wat is er te zien en te doen?</a></li>
+					<li><a href="#">Bezoek het Lorentz Lab</a></li>
+					<li><a href="#">Scholen, kinderen en groepen</a></li>
+					<li><a href="#">Online tickets</a></li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Ontdek het museum</h2>
+				<ul>
+					<li><a href="#">Collectie</a></li>
+					<li><a href="#">Gebouw en geschiedenis</a></li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Over het museum</h2>
+				<ul>
+					<li><a href="#">Organisatie</a></li>
+					<li><a href="#">Steun Teylers Museum</a></li>
+					<li><a href="#">Verhuur</a></li>
+					<li><a href="#">Pers/Beeldmateriaal</a></li>
+					<li><a href="#">Cookiebeleid</a></li>
+					<li><a href="#">Privacy statement</a></li>
+				</ul>
+			</section>
+		</nav>
+
+		<!-- Socials -->
+		<nav>
+			<h2>Volg ons op</h2>
+			<ul>
+				<li><a href="#"><img src="./images/facebook.png" alt="facebook logo"></a></li>
+				<li><a href="#"><img src="./images/twitter.png" alt="twitter logo"></a></li>
+				<li><a href="#"><img src="./images/youtube.png" alt="youtube logo"></a></li>
+				<li><a href="#"><img src="./images/pin.png" alt="pinterest logo"></a></li>
+				<li><a href="#"><img src="./images/insta.png" alt="instagram logo"></a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<p>Teylers Museum</p>
+			<p>Spaarne 16</p>
+			<p>2011 CH Haarlem</p>
+			<p>tel. <a href="tel:023-5160960">023 516 0960</a></p>
+			<p><a href="mailto:info@teylersmuseum.nl">info@teylersmuseum.nl</a></p>
+		</section>
+	</footer>
+
+	<script src="./scripts/script.js"></script>
+</body>
+	
+</html>

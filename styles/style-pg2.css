@@ -1,0 +1,221 @@
+/********************/
+/* Stijlen scherm 2 */
+/********************/
+
+/******************/
+/* foto met titel */
+/******************/
+main section:first-of-type{
+    position: relative;
+}
+
+main section:first-of-type img {
+    width: 100vw;
+
+    /* bron: https://css-tricks.com/almanac/properties/o/object-fit/ */
+    object-fit: none;
+}
+
+main section:first-of-type h1 {
+    font-family: var(--secondaryFont);
+    font-size: 1.125em;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 600;
+    letter-spacing: .05rem;
+
+    position: absolute;
+    left: 3.75rem;
+    top: 6rem;
+}
+
+main section:first-of-type h2 {
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--white);
+
+    position: absolute;
+    left: 3.75rem;
+    top: calc(6rem + 3.5em);
+
+    visibility: hidden;
+}
+
+
+
+
+
+/*********/
+/* tekst */
+/*********/
+main section:nth-of-type(2) {
+    max-width: 40em;
+    padding: 1.56em 1.3em 3em 1.3em;
+}
+
+main section:nth-child(2) h2{
+    color: var(--primaryColor);
+    font-size: 1.875rem;
+    margin-bottom: .625rem;
+}
+
+main section:nth-child(2) h3{
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main section:nth-of-type(2) p {
+    color: var(--textColorDark);
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    margin-bottom: 1.875rem;
+    font-weight: 500;
+}
+
+em {
+    font-weight: 300;
+}
+
+iframe {
+    width: 100%;
+    height: 15em;
+    margin-bottom: 1.875rem;
+}
+
+
+
+
+
+/****************/
+/* koop tickets */
+/****************/
+main section:nth-of-type(3) {
+    padding-top: 3.125em;
+    padding-bottom: 2.5em;
+    margin: 0 1.25rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main section:nth-of-type(3) h2{
+    color: var(--primaryColor);
+    font-size: 1.875em;
+    font-weight: 300;
+    letter-spacing: .05em;
+    text-align: center;
+
+    margin: 0 1.25rem 1.5rem 1.25rem;
+}
+
+main section:nth-of-type(3) a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: 30em;
+    margin: 0 1.25rem 0;
+    width: 11em;
+    height: 3.2em;
+
+    font-family: var(--secondaryFont);
+    font-size: .875rem;
+    letter-spacing: .05em;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3em;
+}
+
+main section:nth-of-type(3) a:hover,
+main section:nth-of-type(3) a:focus {
+    background: var(--black);
+    border: 1px solid var(--black);
+}
+
+
+
+
+
+/*****************/
+/* media queries */
+/*****************/
+@media (min-width: 40em) {
+    iframe {
+        width: 100%;
+        height: 20em;
+    }
+}
+
+@media (min-width: 50em) {
+    main section:first-of-type h2 {
+        visibility: visible;
+    }
+
+    iframe {
+        width: 100%;
+        height: 25em;
+    }
+}
+
+@media (min-width: 60em) {
+    main section:first-of-type h1 {
+        font-size: 2.5em;
+        text-align: center;
+
+        /* bron: les van Sanne over positioneren */
+        top: 10rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main section:first-of-type h2 {
+        text-align: center;
+
+        /* bron: les van Sanne over positioneren */
+        top: 13.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main section:nth-of-type(2) {
+        margin: auto;
+    }
+}
+
+@media (min-width: 75em) {
+    main section:first-of-type img {
+        /* bron: https://css-tricks.com/almanac/properties/o/object-fit/ */
+        object-fit: contain;
+    }
+    
+    main section:first-of-type h1 {
+        font-size: 2.5em;
+        text-align: center;
+
+        /* bron: les van Sanne over positioneren */
+        top: 16.75rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main section:first-of-type h2 {
+        text-align: center;
+
+        /* bron: les van Sanne over positioneren */
+        top: 20.25em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main section:nth-of-type(2) {
+        max-width: 50em;
+    }
+}
