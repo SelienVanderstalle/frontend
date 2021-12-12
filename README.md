@@ -197,7 +197,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik weet niet waarom maar zodra ik mijn site op github zet breekt mijn code en ik weet het allemaal even niet meer T-T T-T T-T T-T T-T T-T T-T T-T T-T T-T. Ik heb mijn best gedaan....
 
 ### Screenshot(s)
 
