@@ -12,18 +12,24 @@
 
 
 
-
 /*********************/
 /* custom properties */
 /*********************/
 :root {
   /* kleuren */
   --primaryColor: #d75745;
-  --titleColor: #999999;
+  --titleColor: #999;
   --textColor: #242424;
   --textColorLight: #666666;
-  --textNav: #777777;
+  --textColorDark: #333;
+  --textNav: #777;
   --contrastBackgroundColor: #f5f5f5;
+  --socialBtn: #ccc;
+  --facebook: #2780e3;
+  --twitter: #1DA1F2;
+  --youtube: #FF0000;
+  --pinterest: #E60023;
+  --instagram: #458eff;
   --white: #fff;
   --black: #000;
 
@@ -50,13 +56,17 @@ li {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   cursor: pointer;
 }
 
 a:focus {
   outline: none;
-  border: 2px solid var(--primaryColor);
+  box-shadow: 0 0 0 2px var(--primaryColor);
 }
 
 
@@ -77,6 +87,7 @@ header img {
   position: absolute;
   right: .25em;
   width: 15%;
+  z-index: 1;
   max-width: 10em;
 }
 
@@ -93,19 +104,31 @@ header nav {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   max-width: 25em;
+  z-index: 2;
+
   transform: translateX(-100%);
   transition: .3s;
 }
 
-header nav section {
-  margin-top: 2em;
-  margin-left: 2.5em;
+header nav div {
+  height: 100vh;
+
+  overflow: scroll;
+  margin-top: 2.5em;
+  margin-left: 2em;
+  overscroll-behavior: contain;
 }
 
-/* Hamburger */
-header nav section:first-of-type {
+
+
+
+
+/*************/
+/* hamburger */
+/*************/
+header nav>section {
   margin: 0;
   position: absolute;
   left: 100%;
@@ -116,12 +139,19 @@ header nav section:first-of-type {
   height: 3.75em;
 }
 
-header nav section:first-of-type:hover,
-header nav section:first-of-type:focus {
+header nav>section:hover,
+header nav>section:focus {
   background: var(--black);
 }
 
-header nav section:first-of-type p::before{
+header>nav section p {
+  color: var(--white);
+  font-size: 2rem;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+header nav>section p::before{
   content: "☰";
   line-height: 2.25em;
 }
@@ -130,20 +160,18 @@ header nav section:first-of-type p::before{
 .toonMenu header nav {
   transform: translateX(0%);
   transition: .3s;
-  overflow-y: auto;
 }
 
-.toonMenu header nav section:first-of-type {
-  left: 20em;
+.toonMenu header nav>section {
+  left: calc(100% - 3.75em);
   top: 0;
 
   background: var(--black);
 }
 
-.toonMenu header nav section:first-of-type p::before {
+.toonMenu header nav>section p::before {
   content: "×";
 }
-
 
 
 
@@ -151,19 +179,22 @@ header nav section:first-of-type p::before{
 /********************************/
 /* Styling elementen binnen nav */
 /********************************/
-header nav section p {
-  color: var(--white);
-  font-size: 2rem;
-  line-height: 1.7em;
-  text-align: center;
+header nav div section {
+  margin-bottom: 2rem;
 }
 
-/* language */
-nav button {
+
+
+
+
+/************/
+/* Language */
+/************/
+header nav section button {
   font-family: var(--primaryFont);
   font-size: .9rem;
   font-weight: 100;
-  
+
   color: var(--white);
   background: var(--primaryColor);
   border: none;
@@ -171,67 +202,91 @@ nav button {
   padding: .5em 1em;
 }
 
-nav button::after{
+header nav section button::after{
   content:"▼";
   font-size: .5em;
   margin-left: .5em;
 }
 
-/* zoekbalk */
+
+
+
+
+/************/
+/* Zoekbalk */
+/************/
 form {
   position: relative;
+  width: 14.75em;
 }
 
 input[type="search"] {
   appearance: none;
-  width: 17em;
+  width: 100%;
   height: 1.18em;
   padding: 1.125em 0.5em;
-  
+
   background-color: var(--black);
   border: 1px solid var(--black);
   border-radius: 20em;
 
   font-weight: 400;
   font-size: 0.850em;
-  color: #999999;
+  color: var(--titleColor);
   font-style: italic;
   line-height: 1.5em;
 }
 
 /* vergrootglas */
 input[type="submit"] {
+  width: 2.25em;
+
   position: absolute;
-  left: 15em;
-  top: .3em;
+  right: 0;
+  top: 0;
+  bottom: 0;
   z-index: 1;
 
   appearance: none;
   background: var(--black);
   border: none;
+  border-radius: 50%;
 
   font-size: 0.850em;
-  line-height: 1.5em;
-  color: #999999;
+  line-height: 1em;
+  color: var(--titleColor);
 }
 
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primaryColor);
+}
+
+
+
+
+
+
+/*************/
 /* nav links */
-header nav ul li {
-  margin: 1rem 0;
+/*************/
+header nav div ul li{
+  margin: .5rem 0;
 }
 
-header nav h2 a {
+header nav div h2 a {
   color: var(--primaryColor);
   font-family: var(--secondaryFont);
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .05em;
 }
 
 header nav a {
+  padding: .5rem;
   color: var(--textNav);
-  font-size: .938em;
+  font-size: .938rem;
   text-decoration: none;
 }
 
@@ -247,9 +302,17 @@ header nav a:focus {
 /**********/
 /* footer */
 /**********/
+
+
+
+
+
+/**********/
+/* slogan */
+/**********/
 footer>section:nth-of-type(1) {
   padding: 3.125em 0;
-} 
+}
 
 footer>section:nth-of-type(1) h2 {
   color: var(--primaryColor);
@@ -258,6 +321,13 @@ footer>section:nth-of-type(1) h2 {
   margin: 0 1.17em;
 }
 
+
+
+
+
+/**************/
+/* footer nav */
+/**************/
 footer nav {
   background: var(--contrastBackgroundColor);
   padding: 0 1.25em;
@@ -265,7 +335,7 @@ footer nav {
 
 footer nav:first-of-type {
   padding-top: 5em;
-  
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -278,7 +348,7 @@ footer nav h2 {
   font-weight: 600;
 
   margin-bottom: 0.9375em;
-} 
+}
 
 footer nav>section {
   width: 100%;
@@ -309,7 +379,7 @@ footer nav section:nth-of-type(3) a::after,
 footer section:nth-of-type(2) a::after {
   content: "";
   background: var(--textNav);
-  
+
   position: absolute;
   left: 0;
   right: 0;
@@ -355,22 +425,85 @@ footer>section:nth-of-type(2) a {
 
 
 
+/***********/
+/* socials */
+/***********/
+footer nav:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer nav:last-of-type ul {
+  width: 100%;
+  max-width: 25em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer nav:last-of-type ul li a {
+  border-radius: 25em;
+  background: var(--socialBtn);
+  padding: 1.125rem;
+}
+
+
+footer nav:last-of-type ul li:nth-of-type(1) a:hover,
+footer nav:last-of-type ul li:nth-of-type(1) a:focus {
+  background: var(--facebook);
+}
+
+footer nav:last-of-type ul li:nth-of-type(2) a:hover,
+footer nav:last-of-type ul li:nth-of-type(2) a:focus   {
+  background: var(--twitter);
+}
+
+footer nav:last-of-type ul li:nth-of-type(3) a:hover,
+footer nav:last-of-type ul li:nth-of-type(3) a:focus  {
+  background: var(--youtube);
+}
+
+footer nav:last-of-type ul li:nth-of-type(4) a:hover,
+footer nav:last-of-type ul li:nth-of-type(4) a:focus  {
+  background: var(--pinterest);
+}
+
+footer nav:last-of-type ul li:nth-of-type(5) a:hover,
+footer nav:last-of-type ul li:nth-of-type(5) a:focus  {
+  background: var(--instagram);
+}
+
+
+
+
 /*****************/
 /* media queries */
 /*****************/
-@media (min-width: 33em) {
+@media (min-width: 40em) {
   /*************/
   /* Hamburger */
   /*************/
-  .toonMenu header nav section:first-of-type {
+  .toonMenu header nav>section {
     left: 100%;
     top: 1em;
-  
+
     background: var(--primaryColor);
   }
 }
 
 @media (min-width: 50em) {
+/**********/
+/* Header */
+/**********/
+  header nav {
+    max-width: 20em;
+  }
+
+
+
+
+
 /**********/
 /* footer */
 /**********/
@@ -380,19 +513,22 @@ footer>section:nth-of-type(2) a {
 
   footer nav h2 {
     text-align: center;
-  } 
+  }
 
   footer nav ul li {
     text-align: center;
   }
 
-  footer nav:nth-of-type(2) h2 {
-    margin: auto;
-    text-align: center;
+  footer nav:last-of-type {
+    align-items: center;
   }
 
   footer>section:nth-of-type(2) p {
     text-align: center;
+  }
+
+  footer nav:last-of-type ul {
+    width: 40%;
   }
 }
 
@@ -400,12 +536,12 @@ footer>section:nth-of-type(2) a {
   /**********/
   /* header */
   /**********/
-  header nav section:first-of-type {
+  header nav>section {
     width: 5em;
     height: 5em;
   }
 
-  header nav section:first-of-type p::before{
+  header nav>section p::before{
     line-height: 3em;
   }
 
@@ -430,5 +566,9 @@ footer>section:nth-of-type(2) a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  footer nav:last-of-type ul {
+    width: 50%;
   }
 }
