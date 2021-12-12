@@ -160,7 +160,7 @@ Mijn arm doet (donderdag 9dec.) nog steeds pijn van dat ding.
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
@@ -193,7 +193,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
@@ -201,8 +201,8 @@ Ik weet niet waarom maar zodra ik mijn site op github zet breekt mijn code en ik
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
-
+<img src="images/eindresultaat-scherm1.png" width="375px">
+<img src="images/eindresultaat-scherm2.png" width="375px">
 </details>
 
 
@@ -219,6 +219,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 1. Oefeining js van de les
 2. Oefening positioneren van de les
 3. De les van Sanne op maandag 6 december
-4. 
+4. https://css-tricks.com/css-only-carousel/
+5. https://stackoverflow.com/questions/7281765/how-to-embed-an-autoplaying-youtube-video-in-an-iframe
+6. https://www.teylersmuseum.nl/nl#/nl/frontpage/ovale-zaal
+7. https://css-tricks.com/almanac/properties/o/object-fit/
 
 </details>
