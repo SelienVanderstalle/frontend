@@ -197,12 +197,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-Ik weet niet waarom maar zodra ik mijn site op github zet breekt mijn code en ik weet het allemaal even niet meer T-T T-T T-T T-T T-T T-T T-T T-T T-T T-T. Ik heb mijn best gedaan....
+De carousel werkt helaas niet optimaal of zoals ik zou willen, maar hij doet wat ie moet doen. Veder is de site als het goed is helemaal af.
 
 ### Screenshot(s)
 
-<img src="images/eindresultaat-scherm1.png" width="375px">
-<img src="images/eindresultaat-scherm2.png" width="375px">
+<img src="./images/eindresultaat-scherm1.png" width="375px">
+<img src="./images/eindresultaat-scherm2.png" width="375px">
 </details>
 
 
