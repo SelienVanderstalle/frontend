@@ -72,7 +72,7 @@ pagina 2<img src="images/pg2.png" width="375px" alt="screenshot 2e pagina">
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Heb deze meeting helaas gemist T-T
+In de eerste week heb ik de basis html opgezet voor mijn eerste pagina. Helaas ben ik op dit punt nog niet aan de css begonnen. Ik loop een beetje achter maar ik denk dat het wel goed komt.
 
 
 ### Agenda voor meeting
@@ -86,12 +86,7 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Helaas heb ik de meeting niet kunnen bijwonen.
 
 </details>
 
@@ -105,7 +100,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Ik kon helaas niet bij de meeting zijn, omdat ik bij de dokter was.
+Ik ben deze week flink aan de slag gegaan met het schrijven van css. De eerste pagina is bijna af. Alleen de footer nog en zodra mijn 2e pagina staat wil ik kijken of ik het voor elkaar krijg om een carousel te maken. Ik heb alleen een probleem met het menu op het desktopscherm als ik het menu open verdwijnt de button.
 
 
 ### Agenda voor meeting
@@ -113,18 +108,15 @@ samen met je groepje opstellen
 
 | student 1                         | student 2          | student 3    | student 4        |
 | ---                               | ---                | ---          | ---              |
-| Ik heb niks om te bespreken       | en dit             | en ik dit    | en dan ik dat    |
-|                                   | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...                               | ...                | ...          | ...              |
+| Hoe los ik het probleem met       | en dit             | en ik dit    | en dan ik dat    |
+| mijn nav op?                      | dit als er tijd is | nog een punt | dit wil ik zeker |
+|                                   | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Helaas liep mijn bezoek bij de dokter erg uit waardoor ik niet bij de meeting aanwezig kon zijn.
+ 
+Ik ga even onderzoek doen naar de reden waarom mijn nav zo raar doet en kijken of ik het zelf kan oplossen.
 
 </details>
 
@@ -139,18 +131,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - Menu autklappen met key aanslag.
+ - Tansition over menulinks.
+ - Focusstate doet soms raar.
 
 #### hamburger button
-Het hamburgermenu kon nog niet met een key aanslag geopend worden.
+De voice over leest alles netjes uit en je kan door het menu heen met tab, alleen is er niets te zien omdat het menu niet uitklapbaar is. Ik moet er dus voor zorgen dat het mogelijk is om met spatie en/of enter het menu uit te klappen.
 
 Dit kan worden opgelost door javascript toe te voegen die in een eerdere oefening is behandeld.
  
 #### transition
-Bij de nav moet er nog een transitie op de hover.
+Dit kwam naar voren tijdens te test met afleiding. Omdat ik geen transitietijd op de hover had gezet flikkeren de links als je eroverheen hovert dit is volgens Shae erg afleidend voor mensen met ADHD.
+ 
+Dit is makkelijk op te lossen door een transitie aan de hoverstate toe te voegen.
 
 
-#### Auw. 
-Mijn arm doet (donderdag 9dec.) nog steeds pijn van dat ding.
+#### Focus 
+De focusstate werkt prima en ook alles wordt netjes uitgelezen door de screenreader het viel mij alleen op dat er bij de list items ook ergens tussen de img en de h4 wordt gefocussed ook gebeurt er niks als je op de items klikt. 
+<img src="images/focus.png" width="375px">
+ 
+Dit moet ik even uitzoeken waardoor dat komt. 
 
 </details>
 
@@ -164,7 +164,7 @@ Mijn arm doet (donderdag 9dec.) nog steeds pijn van dat ding.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Ik had wat problemen met mijn nav, maar die zijn nu opgelost!
+Ik had wat problemen met mijn nav, maar die zijn nu opgelost! Ook is mijn tweede pagina helemaal klaar!
 
 
 ### Agenda voor meeting
@@ -178,12 +178,7 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Bij de meeting zijn we, omdat ik neit echt vragen had, even door mijn site heengegaan. We hebben wat kleine dingen behandeld zoals de scroll-overflow en we hebben de button van mijn zoekveld verbeterd. Ik moet na de meeting opzoek naar een oplossing voor mijn datetime probleem. 
 
 </details>
 
@@ -193,7 +188,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details open>
+<details>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
