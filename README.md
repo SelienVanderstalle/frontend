@@ -164,7 +164,7 @@ Dit moet ik even uitzoeken waardoor dat komt.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Ik had wat problemen met mijn nav, maar die zijn nu opgelost! Ook is mijn tweede pagina helemaal klaar!
+Ik heb uitegevonden waardoor ik problemen had met mijn focus en het opgelost verder had wat problemen met mijn nav, maar die zijn nu ook opgelost! Ook is mijn tweede pagina helemaal klaar!
 
 
 ### Agenda voor meeting
