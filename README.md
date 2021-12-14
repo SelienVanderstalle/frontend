@@ -134,6 +134,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
  - Menu autklappen met key aanslag.
  - Tansition over menulinks.
  - Focusstate doet soms raar.
+ - Contrast.
 
 #### hamburger button
 De voice over leest alles netjes uit en je kan door het menu heen met tab, alleen is er niets te zien omdat het menu niet uitklapbaar is. Ik moet er dus voor zorgen dat het mogelijk is om met spatie en/of enter het menu uit te klappen.
@@ -151,6 +152,9 @@ De focusstate werkt prima en ook alles wordt netjes uitgelezen door de screenrea
 <img src="images/focus.png" width="375px">
  
 Dit moet ik even uitzoeken waardoor dat komt. 
+ 
+#### Focus 
+Iets wat ik al eerder ondervonden had, is dat het contast niet optimaal is op sommige plekken. Het contrast is niet zo klein dat je met de speciale brillen niets ziet, maar bij het inspecteren van elementen krijg ik wel een waarschuwing. Wat ik hier nu aan kan doen weet ik niet precies want het is niet iets wat ik zelf heb vormgegeven, maar het is wel iets waar ik op zou letten als ik wel zelf met zoiets aan de slag ga.
 
 </details>
 
